@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <g id="layer1">
+    <circle cx="250" cy="250" r="245" fill="#cccccc" fill-opacity="0.1" stroke="grey" stroke-width="5" />    
+    <line x1="250" y1="250" x2="495" y2="250" stroke="grey" stroke-width="5" />
+    <text x="300" y="255" style="fill:#cccccc; font-size: 100px; font-style: italic;">500</text>
+  </g>
+</svg>
