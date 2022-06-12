@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.0.2/interact.min.js" integrity="sha512-Ipef/NhGC7SlCer4041clfWKsriVhnGMcS15cVrl9j/NFtNmqeK28tbfOFwASlSfy4j8XjcpVw4HXvTvzgA8rA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="interactRotate.js" ></script>
+
+<style>
+
+.base{
+  position:  absolute;
+  background-color:rgba(255, 255, 0, 0.1);
+  background-image: url("mpcInferior.png");
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 1100px;
+  margin-top: 0px;
+  margin-left: 0px; 
+  z-index: 1;
+}
+
+.drag-rotate2 {
+  position:  absolute;
+  background-image: url("mpcIntermedio1000.png");
+  background-repeat: no-repeat;
+  background-color:rgba(255, 0, 0, 0.01); 
+  width:1000px;
+  height: 1000px; 
+  margin-top: 150px;
+  margin-left: -74px;
+  color: white;
+  border-radius: 50%;
+  transform: rotate(0);
+  transform-origin: center center;
+  user-select: none;
+  touch-action: none;
+  z-index: 20;
+}
+
+.drag-rotate3 {
+  position:  absolute;
+  background-image: url("mpcSuperior.png");
+  background-repeat: no-repeat;
+  background-color:rgba(0, 255, 0, 0.01); 
+  width:816px;
+  height: 816px; 
+  margin-top: 92px;
+  margin-left: 92px;
+  color: white;
+  border-radius: 50%;
+  transform: rotate(0);
+  transform-origin: center center;
+  user-select: none;
+  touch-action: none;
+  z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="base">
+
+  <div class="drag-rotate2">
+    
+      <div class="drag-rotate3">
+
+       </div>
+     
+  </div>
+</div>
+
+
+</body>
+</html>
